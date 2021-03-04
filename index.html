@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+</head>
+<body>
+
+  <h1>JavaScript - Algoritmos</h1>
+
+<script>
+
+  /* Faça um algoritmo para ler o ano de nascimento de uma pessoa,
+  calcular e mostrar sua idade e, também, verificar e mostrar se
+  ela já tem idade para votar (16 anos ou mais) e para conseguir a
+  Carteira de Habilitação (18 anos ou mais). */
+
+  var anoDeNascimento = 2005;
+  var anoAtual = 2021;
+  var idade = anoAtual - anoDeNascimento;
+
+  if (idade >= 16) {
+    console.log("Já tem idade para votar");
+  } else {
+    console.log("Não tem idade para votar");
+  }
+
+  if (idade >= 18) {
+    console.log("Já tem idade para emitir a Carteira de Habilitação");
+  } else {
+    console.log("Não tem idade para emitir a Carteira de Habilitação");
+  }
+
+</script>
+  
+</body>
+</html>
